@@ -31,5 +31,5 @@ jobs:
       env:
         WAKATIME_SECRET_API_KEY: '1234'
         GIST_ID: ${{ secrets.GIST_ID }}
-        GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+        GITHUB_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
         DRY_RUN: ${{ secrets.DRY_RUN }}
